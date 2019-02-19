@@ -22,6 +22,7 @@ public class LambdaTest {
     public List<Employee> judge(List<Employee> employeeList,EmployeeInterface<Employee> employeeInterface) {
         ArrayList<Employee> list = new ArrayList<>();
 
+
         for (Employee employee : employeeList
              ) {
             if(employeeInterface.task(employee)){
