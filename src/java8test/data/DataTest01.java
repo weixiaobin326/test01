@@ -14,7 +14,7 @@ public class DataTest01 {
     @Test
     public void test01() {
         LocalDateTime time = LocalDateTime.now();
-        System.out.println(time);
+        System.out.println(time) ;
 
     }
     @Test
